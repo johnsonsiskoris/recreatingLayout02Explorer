@@ -1,0 +1,133 @@
+body {
+    background-color: #2C2B3D;
+
+    padding: 90px;
+    margin: 0;
+}
+
+header {
+    position: absolute;
+    width: 1083px;
+    height: 30px;
+    left: 99px;
+    top: 71px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 64px;
+    list-style: none;
+
+    position: absolute;
+    width: 306px;
+    height: 30.05px;
+    right: 0px;
+    top: 0px;
+}
+
+ul li a {
+    color: #FFFFFF;
+    font-family: "JetBrains Mono", sans-serif;
+    text-decoration: none;
+}
+
+#logo {
+    position: absolute;
+    width: 168px;
+    height: 23px;
+    left: 2px;
+    top: 0px;
+
+}
+
+h1 {
+    color: #FFFFFF;
+    position: absolute;
+    left: 45.08%;
+    right: 26.72%;
+    top: 28.89%;
+    bottom: 65.56%;
+
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+
+
+    text-align: center;
+}
+
+h1 a {
+    color: #00BFA6;
+}
+
+
+p {
+    position: absolute;
+    left: 45.47%;
+    right: 7.34%;
+    top: 42.64%;
+    bottom: 34.03%;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+
+    text-align: center;
+
+    color: #C2C2C2;
+
+    mix-blend-mode: normal;
+
+}
+
+p a {
+    color: #00BFA6;
+}
+
+#img1 {
+    position: absolute;
+    width: 401px;
+    height: 283px;
+    left: 99px;
+    top: 202px;
+}
+
+footer p {
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 27px;
+
+
+    position: absolute;
+    width: 568px;
+    height: 55px;
+    left: 356px;
+    top: 642px;
+}
+
+#line {
+    position: absolute;
+    width: 568px;
+    height: 0px;
+    left: 356px;
+    top: 642px;
+
+    border: 1px solid #00BFA6;
+}
+
+#padlock {
+    position: fixed;
+    bottom: 20px;
+    left: 13px;
+}
